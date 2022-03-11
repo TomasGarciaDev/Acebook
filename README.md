@@ -90,7 +90,7 @@ Fill in your details on the sign up page. Checks are in place that the email is 
 
 After succesfully signing up, login with your details.
 
-<img src="app/assets/images/README_images/logInPage.jpeg"/>
+<img src="app/assets/images/README_images/logInPage.jpg"/>
 
 This will take you to your feed page.
 
