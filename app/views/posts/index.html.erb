@@ -30,11 +30,7 @@
 <%# Link to create a new post, or visit your profile %>
 
 <p><%= link_to "Create new post", {:action => 'new' } %></p>
-<%
-=begin%>
- <p><%= link_to "Go to your profile", profile_path %></p> 
-<%
-=end%>
+
 <h2><image src="<%=(url_for(User.find_by(id: session[:current_user_id]).profile_pic))%>"
 style="width:80px;height:80px;"> Hi <%= User.find_by(id: session[:current_user_id]).name %>, see your feed below</h2>
 
@@ -63,7 +59,7 @@ style="width:80px;height:80px;"> Hi <%= User.find_by(id: session[:current_user_i
   <%= link_to "Delete Post", posts_path(id: post.id), method: :delete %>
 
   <br>
-<%# Like/Comment buttons %>
+  <%# Like/Comment buttons %>
   <%= link_to "Add a comment", comments_path(post_id: post.id) %><br><br>
   <p>
   
@@ -79,10 +75,9 @@ style="width:80px;height:80px;"> Hi <%= User.find_by(id: session[:current_user_i
     <%= button_to 'Like', post_likes_path(post), method: :post, class: "btn btn-primary" %>
   <% end %>
 
-<%# Like/Comment counters %>
+  <%# Like/Comment counters %>
   <p><%= post.likes.count %> <%= (post.likes.count) == 1 ? 'Like' : 'Likes'%></p> 
  
-
   <%# Comments section%>
   <h4>Comments Section (<%= post.comments.count %>)</h4>
   <% post.comments.reverse.each do |comment| %><br> 
@@ -98,5 +93,3 @@ style="width:80px;height:80px;"> Hi <%= User.find_by(id: session[:current_user_i
 <% end %>
 
 </center>
-
-

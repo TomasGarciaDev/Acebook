@@ -24,13 +24,7 @@
           <li class="nav-item">
            <%= button_to "Sign Out", logout_path, method: :delete, class: "btn btn-primary" %>
           </li>
-          <%
-=begin%>
- <li class="nav-item">
-           <%= link_to "Friends", #fill with path to friends page#, method: :create, class: "btn btn-primary" %>
-          </li> 
-<%
-=end%>
+         
         <% else %>
           <li class="nav-item">
            <p>Don't have an account? Sign up <%= link_to "here", href='/signup'%>.</p>
