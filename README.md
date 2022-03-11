@@ -24,12 +24,12 @@ Created from start to finish in 2 weeks using [Ruby on Rails](https://rubyonrail
 2. Clone the repo.
 
 ````
-git clone https://github.com/chris-clement/acebook-betterverse.git
+git clone https://github.com/TomasGarciaDev/Acebook.git
 ````
 3. cd into the directory.
 
 ````
-cd acebook-betterverse
+cd Acebook
 ````
 
 4. Ensure you use version 3.0.2 of Ruby.
@@ -111,7 +111,7 @@ It now appears on your feed.
 
 You can comment on any Post.
 
-<img src="app/assets/images/README_images/addComment.jpeg"/>
+<img src="app/assets/images/README_images/addComment.jpg"/>
 
 ### Like a Post
 
