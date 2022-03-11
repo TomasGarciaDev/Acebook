@@ -60,13 +60,12 @@ bin/rails server
 8. Visit the locally hosted website.
 
 ````
-bin/rails db:create
-bin/rails db:migrate
+http://localhost:3000/homepage
 ````
 
 ### What you should see
 
-<img src="app/assets/images/README_images/homePage.jpeg"/>
+<img src="app/assets/images/README_images/homePage.jpg"/>
 
 ### Testing
 
@@ -85,7 +84,7 @@ All tests should pass.
 
 Fill in your details on the sign up page. Checks are in place that the email is not already in use and the password is an appropriate length. 
 
-<img src="app/assets/images/README_images/signUpPage.jpeg"/>
+<img src="app/assets/images/README_images/signUpPage.jpg"/>
 
 ### Logging In
 
@@ -95,17 +94,17 @@ After succesfully signing up, login with your details.
 
 This will take you to your feed page.
 
-<img src="app/assets/images/README_images/feedPage.jpeg"/>
+<img src="app/assets/images/README_images/feedPage.jpg"/>
 
 ### Create a Post
 
 Let's create a Post. Click on Create new post.
 
-<img src="app/assets/images/README_images/createPost.jpeg"/>
+<img src="app/assets/images/README_images/createPost.jpg"/>
 
 It now appears on your feed.
 
-<img src="app/assets/images/README_images/feedWithPost.jpeg"/>
+<img src="app/assets/images/README_images/feedWithPost.jpg"/>
 
 ### Comment on a Post
 
@@ -117,7 +116,7 @@ You can comment on any Post.
 
 You can also Like and subsequently unlike a post if you change your mind.
 
-<img src="app/assets/images/README_images/likePost.jpeg"/>
+<img src="app/assets/images/README_images/likePost.jpg"/>
 
 ### Edit/Delete
 
@@ -130,17 +129,17 @@ There are controls in place to ensure you cannot edit/delete other people's comm
 
 Once your feed has many posts you can search for a specific post which will filter the results.
 
-<img src="app/assets/images/README_images/searchPosts.jpeg"/>
+<img src="app/assets/images/README_images/searchPosts.jpg"/>
 
 ### Search for Friend's Posts
 
 You can search for a Friend's Posts based on their name. For instance if I wanted to see all of Bruce's posts I would search like the below. 
 
-<img src="app/assets/images/README_images/searchFriends.jpeg"/>
+<img src="app/assets/images/README_images/searchFriends.jpg"/>
 
 
 ### Profile Page
 
 Click on your profile in the Nav Bar to access a summary of your total number of posts and received likes. It also filters for all of your own Posts.
 
-<img src="app/assets/images/README_images/profilePage.jpeg"/>
+<img src="app/assets/images/README_images/profilePage.jpg"/>
